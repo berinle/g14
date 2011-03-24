@@ -1,0 +1,12 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+        
+		<property name="hibernate.search.default.indexBase">/tmp/lucenedir/g14</property>
+		<mapping class="com.demo.Owner"/>
+
+    </session-factory>
+</hibernate-configuration>
